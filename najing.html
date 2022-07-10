@@ -3,6 +3,18 @@
         <head>
             <meta charset="UTF-8"></meta>
             <title >南京</title>
+            <!-- 設定密碼在<script></script>中 -->
+            <SCRIPT LANGUAGE="JavaScript">                      
+              var password="";
+              password=prompt("輸入密碼:","");
+              if(password=="najing") {
+                  location.href= cd/password + ".html";/*不知為何要加cd/*/
+                  }
+              else{                
+                  alert("無法讀取此網頁 !");
+                  location.href="two.html";
+                  }           
+        </SCRIPT>   
             <style>
               div.fixed {
                 /*position: fixed; 
@@ -15,17 +27,17 @@
             </style>
         </head>
 
-        <body>
+        <body>          
               <div style="text-align:center;color:blue;font-size:2em;">~😎<span style="text-decoration:underline">      南京      </span>😎~</div>            
               <hr/>              
                 <div class="fixed">
-                    <a href="two.html" >返回首頁</a>
+                  <a href="two.html" >返回首頁</a>
                 </div>
 
-                  <div style="text-align:center"><a href="vd/a2.mp4">于玄</a></div>
+                <div style="text-align:center"><a href="vd/a2.mp4">丁玉萍-吳函</a></div>
                   <br/>
                   <br/>
-                  <img src="ghoto/a1.jpg" width="245" height="375.375"/>
+                <img src="ghoto/a1.jpg" width="245" height="375.375"/>
 
         </body>    
   </html>

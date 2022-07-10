@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-    <html><head>
-        <meta charset="UTF-8"></meta>
-        <titl>page3</titl>
-    </head>
+    <html>
+        <head>
+            <meta charset="UTF-8"></meta>
+            <title>無錫</title>
+            <!-- 設定密碼在<script></script>中 -->
+            <SCRIPT LANGUAGE="JavaScript">                      
+                var password="";
+                password=prompt("輸入密碼:","");
+                if(password=="page3") {
+                    location.href= dir/password + ".html";
+                    }
+                else{                
+                    alert("無法讀取此網頁 !");
+                    location.href="../two.html";
+                    }           
+            </SCRIPT>
+                
+            <style>
+                div.fixed {
+                /*position: fixed; 
+                /*text-align:center; */       
+                top:0px;
+                left: 10px;
+                width: 300px;
+                /*border: 3px solid #73AD21;*/
+                }
+            </style>
+        </head>
     <body>
-        <h1>page3</h1>
-        <hr/>
-        <a href="../two.html">home</a>
+                 
+            <div style="text-align:center;color:blue;font-size:2em;">~😎<span style="text-decoration:underline">      無錫      </span>😎~</div>           
+            <hr/>
+            <div class="fixed">
+                        <a href="../two.html" >返回首頁</a>
+            </div>
+            <div style="text-align:center"><a href="../vd/a2.mp4">廣周</a></div>
+                <br/>
+                <br/>
+                <img src="../ghoto/a1.jpg" width="245" height="375.375"/> 
+                
     </body>
     
 </html>
