@@ -1,0 +1,40 @@
+         
+div.static{    
+    position:static;
+    width:245;
+    height:375.375;
+    }
+div.relativey{
+    position:relative;
+    width:245;
+    height:375.375;
+    }
+div.fixed {
+position: fixed; 
+/*text-align:center; */       
+top:5px;
+left: 10px;
+width: 300px;
+/*border: 3px solid #73AD21;*/
+    }
+div.absolute{
+    position:absolute;
+    width:245;
+    height:375.375;
+    }
+div.sticky{
+    position:-webkit-sticky;/* Safari */
+    position:sticky;
+    top:0;
+    background-color:green;
+    margin:0px 0px 0px 10px; 
+    padding:0px 0px 0px 200px; /*padding 上左下右*/
+    border:2px solid #4CAF50;
+    }
+    
+
+/* <style type="text/css"> */
+    *{ margin:0;padding:0;}
+    div img{width:205px;height:300px}
+    div video{ width:205px;height:300px} 
+/* </style> */

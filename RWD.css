@@ -1,0 +1,64 @@
+/*1-一班電腦*/
+/*標題文字控制*/
+.scr{
+    width:"228" height="356";
+    /*font-size:25px;
+    font-weight:bold;
+    margin-bottom:15px;
+    text-align:center;*/
+}
+/*電腦*/
+
+/*電腦顯示,手機關掉*/
+.desktop-menu{
+    text-align:center;
+    display:bloch;
+}
+.mobile-menu{
+    text-align:center;
+    display:none;
+}
+
+
+.list{
+    display:flex;
+    justify-content:center;
+}
+.product{
+    flex:none;width:230px;margin:10px;
+    background-color:#cccccc;
+}
+/*2-平板電腦*/
+
+
+@media (max-width:1000px){
+    /*螢幕小於1000px,套用這個區塊的css*/
+    .list{
+        flex-wrap:wrap;
+    }
+    .product{
+        width:45%;
+    }
+}
+/*3-手機*/
+
+
+@media (max-width:500px){
+    /*螢幕小於1000px,套用這個區塊的css*/
+    /*為了一行,縮小字體*/
+    .headline{
+        font-size:15px;
+    }
+    /*電腦關掉,手機顯示*/
+    .desktop-menu{
+       /* text-align:center;*/
+        display:none;
+    }
+    .mobile-menu{
+        /*text-align:center;*/
+        display:block;
+    }
+    .product{
+        width:90%;
+    }
+}
